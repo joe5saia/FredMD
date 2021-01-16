@@ -11,7 +11,7 @@ setuptools.setup(
     description="Estimate factors off of the FRED-MD dataset",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/joe5saia/FredMD",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
