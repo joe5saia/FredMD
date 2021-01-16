@@ -1,1 +1,1 @@
-from fredmd.py import *
+from fredmd import FredMD

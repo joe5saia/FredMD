@@ -57,7 +57,8 @@ class FredMD:
         if vintage is None:
             url = 'https://s3.amazonaws.com/files.fred.stlouisfed.org/fred-md/monthly/current.csv'
         else:
-            url = f'https://s3.amazonaws.com/files.fred.stlouisfed.org/fred-md/monthly/{vintage}csv'
+            url = f'https://s3.amazonaws.com/files.fred.stlouisfed.org/fred-md/monthly/{vintage}.csv'
+        print(url)
         transforms = pd.read_csv(
             url, header=0, nrows=1, index_col=0).transpose()
         transforms.index.rename("series", inplace=True)
