@@ -1,7 +1,6 @@
-import numpy as np
-import pandas as import pd
-import FredMD as fmd
 import pytest
+import FredMD as fmd
+
 
 # Model should estimate the maximum number of factors as IC chooses 7 normally
 x = fmd.FredMD(Nfactor=None, vintage=None, maxfactor=4, standard_method=2, ic_method=2)
