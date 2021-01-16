@@ -254,3 +254,5 @@ class FredMD:
         if self.Nfactor is None:
             self.baing()
         self.factors_em()
+
+# Testing Linting 
