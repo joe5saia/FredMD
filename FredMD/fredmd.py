@@ -142,7 +142,7 @@ class FredMD:
     def factors_em(self, max_iter=50, tol=math.sqrt(0.000001)):
         """
         Estimates factors with EM alogorithm to handle missings
-        Inputs: 
+        Inputs:
         max_iter: Maximum number of iterations
         tol: Tolerance for convergence between iterations of predicted series values
         Alogrithm:
