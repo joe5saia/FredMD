@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="FredMD",
-    version="0.0.3",
+    version="0.0.4",
     author="Joe Saia",
     author_email="joe5saia@gmail.com",
     description="Estimate factors off of the FRED-MD dataset",
