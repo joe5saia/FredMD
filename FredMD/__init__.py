@@ -1,1 +1,3 @@
-from fredmd import FredMD
+from .fredmd import FredMD
+
+__all__ = ['FredMD']
