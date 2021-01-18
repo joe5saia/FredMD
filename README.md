@@ -1,4 +1,6 @@
 # FredMD
+![Build](https://github.com/joe5saia/FredMD/workflows/FredMD%20Build/badge.svg)
+
 
 This package downloads the [FRED-MD dataset](https://research.stlouisfed.org/econ/mccracken/fred-databases/) and estimates common factors. It also implements the [Bai-Ng (2002)](http://www.columbia.edu/~sn2294/pub/ecta02.pdf) factor selection information critrea. The alogrithms in this package are adapted from the matlab programs provided on the FRED-MD web page.
 
