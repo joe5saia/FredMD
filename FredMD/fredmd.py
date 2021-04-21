@@ -55,9 +55,9 @@ class FredMD:
     @staticmethod
     def download_data(vintage):
         if vintage is None:
-            url = 'https://s3.amazonaws.com/files.fred.stlouisfed.org/fred-md/monthly/current.csv'
+            url = 'https://files.stlouisfed.org/files/htdocs/fred-md/monthly/current.csv'
         else:
-            url = f'https://s3.amazonaws.com/files.fred.stlouisfed.org/fred-md/monthly/{vintage}.csv'
+            url = f'https://files.stlouisfed.org/files/htdocs/fred-md/monthly/{vintage}.csv'
         print(url)
         transforms = pd.read_csv(
             url, header=0, nrows=1, index_col=0).transpose()
